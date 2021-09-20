@@ -1,0 +1,40 @@
+{
+  "request": {
+    "path": "/all"
+  },
+  "response": {
+    "delay": 10,
+    "status": 200,
+    "headers": {
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "content-type": "application/json"
+    },
+    "body": {
+      "charset": "UTF-8",
+      "type": "JSON",
+      "json": {
+        "status": "success",
+        "data": {
+          "timeList": [
+            {
+              "value": "утро",
+              "text": "11:00"
+            },
+            {
+              "value": "день",
+              "text": "12:00"
+            },
+            {
+              "value": "вечер",
+              "text": "13:00"
+            }
+          ],
+          "minSum": 1000,
+          "maxSum": 50000
+        }
+      }
+    }
+  }
+}

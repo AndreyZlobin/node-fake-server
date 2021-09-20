@@ -1,0 +1,1 @@
+[{"httpRequest":{"path":"/main"},"httpResponse":{"delay":10,"status":200,"headers":{"Access-Control-Allow-Origin":["*"],"content-type":"application/json"},"body":{"charset":"UTF-8","type":"JSON","json":{"status":"success","data":{"someData":[{"value":"FOO"},{"value":"BAR"},{"value":"BAZ"}]}}}}}]

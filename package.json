@@ -1,0 +1,31 @@
+{
+  "version": "0.5.0",
+  "description": "NodeJs fake-server",
+  "name": "node-fake-server",
+  "author": "Zlobin Andrey",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyZlobin/node-fake-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreyZlobin/node-fake-server/issues"
+  },
+  "homepage": "https://github.com/AndreyZlobin/node-fake-server#readme",
+  "keywords": [
+    "node",
+    "nodeJs",
+    "server",
+    "fake-server",
+    "json-server",
+    "JavaScript"
+  ],
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
