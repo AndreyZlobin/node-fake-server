@@ -3,6 +3,7 @@
     "path": "/main"
   },
   "httpResponse": {
+    "auth": true,
     "delay": 10,
     "status": 200,
     "headers": {

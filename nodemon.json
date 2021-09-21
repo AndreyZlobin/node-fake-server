@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "./"
+  ],
+  "ignore": [
+    "src/**/*.test.ts",
+    "./routes.json"
+  ],
+  "ext": "ts,mjs,js,json,graphql",
+  "exec": "node ./index.js",
+  "legacyWatch": true
+}

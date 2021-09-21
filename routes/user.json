@@ -1,0 +1,99 @@
+[
+  {
+    "httpRequest": {
+      "path": "/user",
+      "method": "POST"
+    },
+    "httpResponse": {
+      "auth": true,
+      "delay": 10,
+      "status": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": [
+          "*"
+        ],
+        "content-type": "application/json"
+      },
+      "body": {
+        "charset": "UTF-8",
+        "type": "JSON",
+        "json": {
+          "status": "success",
+          "message": "User has been created"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/user",
+      "method": "GET"
+    },
+    "httpResponse": {
+      "auth": true,
+      "delay": 10,
+      "status": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": [
+          "*"
+        ],
+        "content-type": "application/json"
+      },
+      "body": {
+        "charset": "UTF-8",
+        "type": "JSON",
+        "json": {
+          "status": "success",
+          "data": {
+            "users": [
+              {
+                "name": "Andy",
+                "id": 1
+              },
+              {
+                "name": "Lucy",
+                "id": 2
+              },
+              {
+                "name": "Evan",
+                "id": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "ref": "/user",
+      "param": "id",
+      "targetFields": [
+        "data",
+        "users"
+      ]
+    },
+    "httpRequest": {
+      "path": "/user/:id",
+      "method": "GET"
+    },
+    "httpResponse": {
+      "auth": true,
+      "delay": 10,
+      "status": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": [
+          "*"
+        ],
+        "content-type": "application/json"
+      },
+      "body": {
+        "charset": "UTF-8",
+        "type": "JSON",
+        "json": {
+          "status": "success"
+        }
+      }
+    }
+  }
+]
