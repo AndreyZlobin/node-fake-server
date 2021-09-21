@@ -18,8 +18,20 @@
     "server",
     "fake-server",
     "json-server",
-    "JavaScript"
+    "JavaScript",
+    "JSON",
+    "server",
+    "fake",
+    "REST",
+    "API",
+    "mocking",
+    "rest",
+    "data",
+    "dummy"
   ],
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
